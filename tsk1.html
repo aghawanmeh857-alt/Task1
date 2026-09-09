@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task1</title>
+    <style>
+       #position {
+        position: static;
+           border: 1px dashed black;
+           margin: 50px ;
+        }
+        .one {
+            position: static;
+            top: 0;
+            left: 0;
+            display: inline;
+            border: 1px solid black;
+            width: 100%;
+            padding: 75px;
+            background-color: red;
+        }
+
+        .two {
+            position: static;
+            top: 0;
+            right: 0;
+            display: inline-block;
+            border: 1px solid black;
+            padding: 75px;
+            background-color: green;
+        }
+
+        .three {
+            position: static;
+            bottom: 0;
+            left: 0;
+            display: inline-block;
+            border: 1px solid black;
+            padding: 75px;
+            background-color: red;
+        }
+
+        .four {
+            position: static;
+            bottom: 0;
+            right: 0;
+            display: inline;    
+            border: 1px solid black;
+            padding: 75px;
+            background-color: red;
+        }
+
+        .Cone{
+            top: 0;
+            left: 0;
+            display: inline;
+            border: 1px solid black;
+            width: 100%;
+            padding: 75px;
+            background-color: red;
+        }
+        .Ctwo{
+            position: relative;
+            top: 50px;
+            left: 50px;
+            display: inline-block;
+            border: 1px solid black;
+            padding: 75px;
+            background-color: green;
+        }
+
+        .Cthree{
+            bottom: 0;
+            left: 0;
+            display: inline-block;
+            border: 1px solid black;
+            padding: 75px;
+            background-color: red;
+        }
+
+        .Cfour{
+            bottom: 0;
+            right: 0;
+            display: inline;    
+            border: 1px solid black;
+            padding: 75px;
+            background-color: red;
+        }
+        #Cposition {
+            margin: 50px ;
+            position: relative;
+            border: 1px dashed black;
+        }
+
+       #Aposition {
+            margin: 50px ;
+            position: absolute;
+            border: 1px dashed black;
+        }
+        .Aone{
+            top: 0;
+            left: 0;
+            display: inline;
+            border: 1px solid black;
+            width: 100%;
+            padding: 75px;
+            background-color: red;
+        }
+        .Atwo{
+            position: absolute;
+            top: 50px;
+            left: 50px;
+            display: inline-block;
+            border: 1px solid black;
+            padding: 75px;
+            background-color: green;
+        }
+
+        .Athree{
+            bottom: 0;
+            left: 0;
+            display: inline-block;
+            border: 1px solid black;
+            padding: 75px;
+            background-color: red;
+        }
+
+        .Afour{
+            bottom: 0;
+            right: 0;
+            display: inline;    
+            border: 1px solid black;
+            padding: 75px;
+            background-color: red;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h2>Positioning :static</h2>
+ <div id="position">
+     <div class="one">one</div>
+     <div class="two">two</div>
+     <div class="three">three</div>
+     <div class="four">four</div>
+ </div>
+    <h2>Positioning :relative</h2>
+ <div id="Cposition">
+     <div class="Cone">one</div>
+     <div class="Ctwo">two</div>
+     <div class="Cthree">three</div>
+     <div class="Cfour">four</div>
+ </div>
+    <h2>Positioning :absolute</h2>
+  <div id="Aposition">
+     <div class="Aone">one</div>
+     <div class="Atwo">two</div>
+     <div class="Athree">three</div>
+     <div class="Afour">four</div>
+ </div>
+</body>
+</html>
